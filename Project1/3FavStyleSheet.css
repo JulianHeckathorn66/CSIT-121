@@ -1,0 +1,29 @@
+#Center {width: 80%;
+		margin-left: auto;
+		margin-right: auto;}
+body { background-image: url(Images/SimpleBlue.jpeg);
+		background-color: darkblue;
+		font-family: Arial; }
+h1 { background-color: blue;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	color: lightblue; }
+nav { background-color: blue;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-style: solid;
+		border-width: 2px; }
+nav ul { list-style-type: none; }
+nav li { display: inline; }
+nav a { text-decoration: none;
+		padding-right: 50px;
+		font-size: 20px;
+		font-family: Arial; }
+a:link, a:hover, a:visited { color: lightblue; }
+img { width: 100%; }
