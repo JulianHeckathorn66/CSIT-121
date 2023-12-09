@@ -1,0 +1,62 @@
+h1 { text-align: center; }
+nav ul { list-style-type: none;
+			text-align: center; }
+nav li { display: inline; }
+nav a { text-decoration: none;
+		padding-right: 50px;
+		font-size: 20px; }
+a:link, a:hover, a:visited { color: blue; }
+th, td { border: 1px solid; }
+.FloatRight { float: right;
+			clear: right;
+			padding-right: 75px; }
+ul { padding-left: 50px; }
+p, li, footer { font-size: large; }
+#Center {text-align: center;}
+form { text-align: center;
+		font-size: large;
+		padding-left: 500px;
+		padding-right: 500px; }
+table { padding-left: 75px;
+		padding-right: 75px;
+		font-size: large; }
+footer { padding-left: 75px }
+li { padding-bottom: 50px;
+		font-size: 25px;
+		padding-left: 75px;
+		list-style-position: inside; }
+p { padding-left: 75px;
+	padding-right: 75px; }
+body { background-image: url(Images/BackgroundImage.jpg);
+		background-color: lightgray; }
+@media (max-width: 768px) {
+	* { margin-left: auto;
+		margin-right: auto;
+		font-size: 50px; }
+	nav li { display: block; }
+	li { padding-left: 0px;
+			padding-right: 0px;
+			font-size: 25px; }
+	img { text-align: center;
+			width: 500px;
+			padding-left: 0px; }
+	.FloatRight { float: none;
+					text-align: center;
+					padding-left: 50px; }
+	form { text-align: left;
+			font-size: medium;
+			padding-left: 50px;
+			padding-right: 50px; }
+	fieldset, label { font-size: medium; }
+	legend { font-size: medium; }
+	input { font-size: medium; }
+	footer { text-align: center;
+				padding-left: 0px; }
+	table, caption { padding-left: 50px;
+			padding-right: 50px;
+			font-size: medium; }
+	th, td { padding-left: 0px;
+				padding-right: 0px;
+				font-size: medium; }
+	a { font-size: medium; }
+}
